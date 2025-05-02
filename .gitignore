@@ -1,0 +1,11 @@
+# IDE Folder
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+# Environment File
+/.env
+
+# Modules
+/node_modules

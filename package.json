@@ -1,0 +1,26 @@
+{
+  "name": "kannatan-js",
+  "version": "1.0.0",
+  "description": "Simple discord bot, kannatan",
+  "keywords": [
+    "discord",
+    "bot",
+    "kannatan",
+    "javascript"
+  ],
+  "homepage": "https://github.com/dheanka73/kannatan-js#readme",
+  "bugs": {
+    "url": "https://github.com/dheanka73/kannatan-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheanka73/kannatan-js.git"
+  },
+  "license": "MIT",
+  "author": "dheanka73",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
