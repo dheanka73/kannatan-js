@@ -23,12 +23,17 @@
   "scripts": {
     "app": "tsx ./src/index.ts",
     "watch": "tsx watch ./src/index.ts",
-    "format": "npx prettier ./src --write"
+    "format": "npx prettier ./src --write",
+    "lint": "npx eslint ./src"
   },
   "dependencies": {
     "tsx": "^4.19.4"
   },
   "devDependencies": {
-    "prettier": "3.5.3"
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3",
+    "typescript-eslint": "^8.31.1"
   }
 }
