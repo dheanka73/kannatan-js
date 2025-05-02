@@ -22,9 +22,13 @@
   "main": "index.ts",
   "scripts": {
     "app": "tsx ./src/index.ts",
-    "watch": "tsx watch ./src/index.ts"
+    "watch": "tsx watch ./src/index.ts",
+    "format": "npx prettier ./src --write"
   },
   "dependencies": {
     "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
   }
 }
