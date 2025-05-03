@@ -11,7 +11,7 @@ export type CommandType = {
   process: (interaction: ChatInputCommandInteraction) => Promise<void>;
 };
 
-const commands: Array<CommandType> = [];
+const commands: Array<CommandType> = [Ping];
 
 export async function executeCommandProcess(
   name: string,
